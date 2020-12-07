@@ -20,3 +20,34 @@ Para generar un control o registro de gastos, millones de
 personas aun usan una libreta. Esto genera que no se pueda
 identificar facilmente las categorías de gasto mas
 importantes mes a mes.
+
+Ingreso de información de usuarios
+1. Datos básico
+		Username
+		Nombres y apellidos
+		Fecha_Nacimiento
+		Género
+
+2. Ingreso de datos financieros
+		Ingresos
+		Egresos
+		Imprevistos
+
+Análisis de datos
+1. Nivel de endeudamiento
+		Activos
+		Pasivos
+
+2. Balance General
+		Riesgo financiero
+					Sin riesgo
+					Alto riesgo
+					Medio riesgo
+					Bajo riesgo
+
+Procesamiento de datos
+1. Alerta de endeudamiento
+		Porcentaje de endeudamiento
+
+2. Flujo de efectivo
+		Nivel de ahorro
