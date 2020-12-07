@@ -1,0 +1,33 @@
+1 .  Introducir gastos e ingresos especificando para cada uno de ellos un concepto,
+una categoría, un importe y la fecha en la que se ha realizado el gasto o se ha
+producido el ingreso. 
+
+
+2.  Posibilidad de editar y eliminar las entradas previamente introducidas.
+
+3.  El usuario debe poder visualizar los gastos e ingresos previamente introducidos
+en forma de listados que podrán obtenerse bien para un mes específico o para
+todo un año, así como el balance del mes o año seleccionados. Cada entrada del
+listado mostrará el concepto, la categoría, la fecha y el importe del
+correspondiente gasto o ingreso.
+
+4.  Un resumen de gastos/ingresos agrupados por categoría. Dicho resumen podrá
+corresponder a un solo mes o a todo un año .
+
+5. Un resumen de gastos/ingresos agrupados por concepto. Igualmente podrán
+corresponder a un solo mes o a todo un año.
+
+6. Un gráfico anual de gastos/ingresos
+
+7. El usuario podrá introducir objetivos de ahorro, del tipo no gastar más de una
+determinada cantidad en un concepto o categoría durante un cierto periodo de
+tiempo y visualizar el progreso de dicho objetivo.
+
+8. Se podrán programar gastos/ingresos recurrentes. Estos podrán ser diarios,
+semanales, quincenales, mensuales, bimestrales, trimestrales, semestrales o
+anuales. El usuario escogerá la fecha de inicio y fin de los gastos/ingresos
+recurrentes.
+
+9. Se  solicitar una contraseña de inicio de sesión.
+
+10.  El usuario podrá organizar sus gastos e ingresos en diferentes cuentas.
