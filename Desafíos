@@ -24,15 +24,21 @@ importantes mes a mes.
 
 Ingreso de información de usuarios
 1. Datos básico
-		Username
+              Todos los datos se pediran por medio de campos de editText, donde se verifica si el usuario se encuentra disponible(no se repite)
+	      tambien se pede la contrasena dos veces para verificarla. Se finaliza el registro con un botton el cual envia los informacion 
+	      a la base de datos.
+		Use
 		Nombres y apellidos
-		Fecha_Nacimiento
-		Género
+		contrasena
+	
+		
 
 2. Ingreso de datos financieros
-		Ingresos
-		Egresos
-		Imprevistos
+               Para cada sub se despliega una ventana con campos para crear un item especifico, es decir en ingresos el sueldo, donde se selecciona 
+	       a que cuenta entra, la cantidad, etc.
+		Ingresos(sueldo, comisiones, etc)
+		Egresos (alquiler, mercar, transporte, etc)
+		Imprevistos (arreglo carro, enfermedad, etc)
 
 Análisis de datos
 1. Nivel de endeudamiento
@@ -40,6 +46,8 @@ Análisis de datos
 		Pasivos
 
 2. Balance General
+             Se extrae la informacion de la base de datos para realizar los calculos correpondientes para estimar los factores financieros y previamente mostrarlos a
+	     a manera de informe en la pagina, de una manera amigable para el usuario, simplificando al maximo mostrar informacion irrelevante.
 		Riesgo financiero
 					Sin riesgo
 					Alto riesgo
@@ -48,7 +56,9 @@ Análisis de datos
 
 Procesamiento de datos
 1. Alerta de endeudamiento
+un mensaje que se visualiza cuando la persona se loguea en la pagina, en forma de campanita.
 		Porcentaje de endeudamiento
 
 2. Flujo de efectivo
+un campo para ingresar el tiempo a la que quiere proyectar, igualmente para el valor deseado.
 		Nivel de ahorro
