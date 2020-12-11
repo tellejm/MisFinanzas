@@ -27,7 +27,7 @@ def inicio():
 async def get_users():
     return database_users
 
-@api.put("/users/user/data/create/{username}")      
+@api.post("/users/user/data/create/{username}")      
 async def update_user(username: str, user_in_db: UserInDB):
     
     database_users[username] = user_in_db
