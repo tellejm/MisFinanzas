@@ -1,6 +1,6 @@
 from db.user_db import UserInDB
 from typing import Dict
-from db.user_db import update_user, get_user, database_users
+from db.user_db import update_user, get_user, database_users, verificador
 from models.user_models import UserIn, UserOut
 
 
@@ -29,10 +29,13 @@ async def get_users():
 
 @api.post("/users/user/data/create/{username}")      
 async def update_user(username: str, user_in_db: UserInDB):
-    
-    database_users[username] = user_in_db
+    user_in_db2 = verificador(username) 
+    if user_in_db2 == None:
+        database_users[username] = user_in_db
+        return user_in_db
+    return {"Usuario ya existe"}
     # return database_users[username]
-    return user_in_db
+    
 
 @api.post("/users/user/auth/")
 async def auth_user(user_in: UserIn):
@@ -71,7 +74,7 @@ async def delete_user(username: str):
     
     try:
         del database_users[username]
-        return database_users
+        return database_users, {"Usuario " + username + " Eliminado"}
     
     except:
         raise HTTPException(status_code=404, detail="Usuario no existe")
