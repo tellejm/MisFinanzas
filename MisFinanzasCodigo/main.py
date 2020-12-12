@@ -2,6 +2,7 @@
 from fastapi import FastAPI
 from models.user import User
 from db.user_db import set_user, database_users
+from models.user import UserInit
 
 from models.ingresos import Ingresos
 from db.ingre_db import set_ingresos, database_ingresos
