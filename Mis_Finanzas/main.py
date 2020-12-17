@@ -80,3 +80,4 @@ async def delete_user(username: str):
     
     except:
         raise HTTPException(status_code=404, detail="Usuario no existe")
+
