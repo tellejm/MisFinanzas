@@ -1,7 +1,6 @@
 from typing import Dict
 from models.egresos import Egresos
 
-
 database_egresos = Dict[str,Egresos]
 
 database_egresos = {

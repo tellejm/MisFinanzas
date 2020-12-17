@@ -2,13 +2,15 @@ from db.user_db import UserInDB
 from typing import Dict
 from db.user_db import update_user, get_user, database_users, verificador
 from models.user_models import UserIn, UserOut
-
-
+import egresos
 
 import datetime
 from fastapi import FastAPI
 from fastapi import HTTPException
 api = FastAPI()
+
+api.include_router(egresos.router)
+
 from fastapi.middleware.cors import CORSMiddleware
 origins = [
     "http://localhost.tiangolo.com", "https://localhost.tiangolo.com",
